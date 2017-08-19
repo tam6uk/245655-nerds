@@ -6,18 +6,23 @@ body {
    color: #000000;
 }
 
-h1 .features-info-title {
+h1 {
+   font-size: 55px;
+   line-height: 55px;
+}
+
+h2 .features-info-title {
    font-size: 45px;
    line-height: 45px;
 }
 
-h2 .features-item-title {
+h3 .features-item-title {
    font-size: 24px;
    line-height: 30px;
    text-transform: uppercase;
 }
 
-h3 {
+h4 {
    font-size: 16px;
    line-height: 24px;
    text-transform: uppercase;
