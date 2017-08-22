@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Nerds</title>
+    <title>Nerds | Каталог</title>
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -50,16 +50,16 @@
             <legend>Сетка:</legend>
               <ul>
                 <li class="filter-option">
-                  <input type="radio" name="product-group" value="adapt" checked>
-                    Адаптивная
+                  <input type="radio" id="filter-adapted" name="product-group" value="adapt" checked>
+                  <label for="filter-adapted">Адаптивная</label>
                 </li>
                 <li class="filter-option">
-                  <input type="radio" name="product-group" value="fix">
-                    Фиксированная
+                  <input type="radio"  id="filter-fixed" name="product-group" value="fix">
+                  <label for="filter-fixed">Фиксированная</label>
                 </li>
                 <li class="filter-option">
-                  <input type="radio" name="product-group" value="rubber">
-                    Резиновая
+                  <input type="radio" id="filter-rubbered" name="product-group" value="rubber">
+                  <label for="filter-rubbered">Резиновая</label>
                 </li>
               </ul>
           </fieldset>
@@ -67,24 +67,24 @@
             <legend>Особенности:</legend>
               <ul>
                 <li class="filter-option">
-                  <input type="checkbox" name="slider" checked>
-                    Слайдер
+                  <input type="checkbox" id="filter-slider" name="slider" checked>
+                  <label for="filter-slider">Слайдер</label>
                 </li>
                 <li class="filter-option">
-                  <input type="checkbox" name="advantages">
-                    Блок преимуществ
+                  <input type="checkbox" id="filter-advantages" name="advantages">
+                  <label for="filter-advantages">Блок преимуществ</label>
                 </li>
                 <li class="filter-option">
-                  <input type="checkbox" name="news" checked>
-                    Новости
+                  <input type="checkbox" id="filter-news" name="news" checked>
+                  <label for="filter-news">Новости</label>
                 </li>
                 <li class="filter-option">
-                  <input type="checkbox" name="gallery">
-                    Галерея
+                  <input type="checkbox" id="filter-gallery" name="gallery">
+                  <label for="filter-gallery">Галерея</label>
                 </li>
                 <li class="filter-option">
-                  <input type="checkbox" name="basket">
-                    Корзина
+                  <input type="checkbox" id="filter-cart" name="cart">
+                  <label for="filter-cart">Корзина</label>
                 </li>
               </ul>
           </fieldset>
@@ -113,7 +113,7 @@
                  Информационный сайт<br>
                  для туристов
               </p>
-              <a class="button" href="#">9 900 руб.</a>
+              <a class="button" href="order-form.html">9 900 руб.</a>
             </article>
           </li>
           <li class="catalog-item">
@@ -167,7 +167,7 @@
              ул. Б. Конюшенная, д. 19/8<br>
              тел. +7 (812) 275-75-75
           </p>
-          <a href="" class="button">Напишите нам</a>
+          <a href="feedback.html" class="button">Напишите нам</a>
         </article>
       </section>
     </main>
